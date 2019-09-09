@@ -19,6 +19,14 @@ This is a Cucumber project written in Java to automate [https://www.exercise1.co
 
 * The cucumber HTML reports for this project can be found in the folder [cucumber-html-reports](https://github.com/jeevanreddybodolla/exercise-dotcom/tree/master/target/cucumber-html-reports)
 
+![Screenshot](https://github.com/jeevanreddybodolla/exercise-dotcom/blob/master/Screen%20Shot%202019-09-09%20at%2012.03.06%20PM.png)
+
+![Screenshot](https://github.com/jeevanreddybodolla/exercise-dotcom/blob/master/Screen%20Shot%202019-09-09%20at%2012.03.22%20PM.png)
+
+![Screenshot](https://github.com/jeevanreddybodolla/exercise-dotcom/blob/master/Screen%20Shot%202019-09-09%20at%2012.03.33%20PM.png)
+
+![Screenshot](https://github.com/jeevanreddybodolla/exercise-dotcom/blob/master/Screen%20Shot%202019-09-09%20at%2012.04.00%20PM.png)
+
 ### Who do I talk to in case of any questions? ###
 
 * Jeevan Bodolla, [jbodolla@gmail.com](jbodolla@gmail.com)
