@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-08T00:19:51Z" name="Suite" finished-at="2019-09-08T00:20:04Z" duration-ms="13080">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:main.TestRunner@5f16132a]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2019-09-08T00:19:51Z" name="Values" finished-at="2019-09-08T00:20:04Z" duration-ms="13080">
+      <class name="main.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:main.TestRunner@5f16132a]" started-at="2019-09-08T00:19:51Z" name="setUpClass" finished-at="2019-09-08T00:19:51Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:main.TestRunner@5f16132a]" started-at="2019-09-08T00:19:51Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-09-08T00:20:04Z" duration-ms="12840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the values on the page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifies values on the https://www.exercise1.com/values web page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:main.TestRunner@5f16132a]" started-at="2019-09-08T00:20:04Z" name="tearDownClass" finished-at="2019-09-08T00:20:04Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="generateHTMLReports()[pri:0, instance:main.TestRunner@5f16132a]" started-at="2019-09-08T00:20:04Z" name="generateHTMLReports" finished-at="2019-09-08T00:20:05Z" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateHTMLReports -->
+      </class> <!-- main.TestRunner -->
+    </test> <!-- Values -->
+  </suite> <!-- Suite -->
+</testng-results>
