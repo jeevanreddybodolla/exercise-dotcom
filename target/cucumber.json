@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11937937254,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify the values on the page",
+        "description": "",
+        "id": "verifies-values-on-the-https://www.exercise1.com/values-web-page;verify-the-values-on-the-page",
+        "after": [
+          {
+            "result": {
+              "duration": 88134369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 703766807,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on https://www.exercise1.com/values page",
+            "match": {
+              "location": "StepDefinitions.iAmOnValuesPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 340766,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The right count of values should appear on the screen",
+            "match": {
+              "location": "StepDefinitions.verifyTheCountOfValues()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 279519,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The values on the screen should be greater than 0",
+            "match": {
+              "location": "StepDefinitions.verifyTheValuesAreGreaterThanZero()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327288,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The total balance should be correct based on the values listed on the screen",
+            "match": {
+              "location": "StepDefinitions.verifyTheTotalBalance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283914,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The values should be formatted as currencies",
+            "match": {
+              "location": "StepDefinitions.verifyTheValuesAreFormatted()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269613,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The total balance should match the sum of the values",
+            "match": {
+              "location": "StepDefinitions.verifyTheTotalBalance2()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ValidateValues"
+          }
+        ]
+      }
+    ],
+    "name": "Verifies values on the https://www.exercise1.com/values web page",
+    "description": "",
+    "id": "verifies-values-on-the-https://www.exercise1.com/values-web-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Values.feature",
+    "tags": []
+  }
+]
