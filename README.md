@@ -17,7 +17,7 @@ This is a Cucumber project written in Java to automate [https://www.exercise1.co
 
 ### Test Reports ###
 
-* The cucumber HTML reports for this project can be found in the folder [cucumber-html-reports](https://github.com/jeevanreddybodolla/cucumber-exercise/tree/master/target/cucumber-html-reports)
+* The cucumber HTML reports for this project can be found in the folder [cucumber-html-reports](https://github.com/jeevanreddybodolla/exercise-dotcom/tree/master/target/cucumber-html-reports)
 
 ### Who do I talk to in case of any questions? ###
 
